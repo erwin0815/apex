@@ -1,5 +1,6 @@
-# apex
-KanBan APEX examples
+# Apex KanBan Example
+
+KanBan APEX Application
 
 # Installation
 
