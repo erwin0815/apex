@@ -1,0 +1,84 @@
+  .sort { list-style-type: none; margin: 0; float: left ;
+   margin-right: 10px; 
+  background: #eee;
+  padding: 5px; width: 163px;
+  }
+  .sort li { margin: 5px; padding: 5px; font-size: 0.8em; width: 150px; }
+  .mainbox { float: left; padding-left: 10px; margin-left: 10px; margin-bottom: 10px;background: #eee;  }
+  .headerline{ font-size: 14px; font-weight: bold;  font-style: italic ;}
+  .description{ font-size: 11px; font-weight: normal; }
+  
+  li.itemtext{ font-size: 11px !important; font-weight: normal; padding: 1px !important; }
+  li.itemtext p{ margin: 0px !important; padding: 1px !important;  }
+  li.itemtext p.head_item{ font-weight: bold; font-size: 12px;  }
+
+/* The whole thing */
+.custom-menu {
+    display: none;
+    z-index: 1000;
+    position: absolute;
+    overflow: hidden;
+    border: 1px solid #CCC;
+    white-space: nowrap;
+    font-family: sans-serif;
+    background: #FFF;
+    color: #333;
+    border-radius: 3px;
+    padding: 0;
+}
+
+/* Each of the items in the list */
+.item-menu li {
+    padding: 8px 12px;
+    cursor: pointer;
+    list-style-type: none;
+    transition: all .3s ease;
+    user-select: none;
+}
+
+.custom-menu li {
+    padding: 8px 12px;
+    cursor: pointer;
+    list-style-type: none;
+    transition: all .3s ease;
+    user-select: none;
+}
+.item-menu 
+ {
+    display: none;
+    z-index: 1000;
+    position: absolute;
+    overflow: hidden;
+    border: 1px solid #CCC;
+    white-space: nowrap;
+    font-family: sans-serif;
+    background: #FFF;
+    color: #333;
+    border-radius: 3px;
+    padding: 0;
+}
+
+.item-menu  li:hover {
+    background-color: #DEF;
+}
+
+.custom-menu li:hover {
+    background-color: lightgreen;
+}
+
+.my_dialog 
+ {
+    display: none;
+    z-index: 1000;
+    position: absolute;
+    overflow: hidden;
+    border: 1px solid #CCC;
+    white-space: nowrap;
+    font-family: sans-serif;
+    background: #FFF;
+    color: #333;
+    border-radius: 3px;
+    padding: 0;
+}
+
+  
